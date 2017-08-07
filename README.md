@@ -44,20 +44,25 @@
       Push the button to arm the device and to set 0m reference altitude.
       The red led blinks slowly.
       The device now logs permanently data in a ringbuffer and waits for apogee.
-      Once apogee was detected, the device blinks very fast for another 15 seconds (it is logging another 300 data points).
+      Once apogee was detected, the device blinks very fast for another 15 seconds 
+      (it is logging another 300 data points).
       After that the LED shows the following blinking pattern:
       Blink fast - LED off - blink fast - LED off - [repeat]
-      The device has now stored 500 data points (200 before apogee and 300 after) in its EEPROM and can be turned off via 
+      The device has now stored 500 data points (200 before apogee and 300 after) 
+      in its EEPROM and can be turned off via 
       the power switch.
       
       Connect the turned-off device to the PC via USB.
-      Run the processing Sketch (you might have to change the port address in the Sketch to the Arduino Port).
+      Run the processing Sketch (you might have to change the port address in 
+      the Sketch to the Arduino Port).
       The device transmits now the data from the EEPROM to the processing sketch.
       
       The Processing Sketch displays the data: 
       The grey bars in the background represent one second. 
-      The red horizontal lines represent 10m height. The Sketch displays the maximum altitude (apogee)
-      and calculates the maximum speed in km/h.
-      The Sketch also displays the battery voltage (because the three button cells won't last forever).
-      The Sketch saves a screenshot of the visualisation and the processed data as .CSV file in the Sketch's /data folder.
+      The red horizontal lines represent 10m height. The Sketch displays the 
+      maximum altitude (apogee) and calculates the maximum speed in km/h.
+      The Sketch also displays the battery voltage 
+      (because the three button cells won't last forever).
+      The Sketch saves a screenshot of the visualisation 
+      and the processed data as .CSV file in the Sketch's /data folder.
    
