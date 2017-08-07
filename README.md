@@ -3,8 +3,9 @@
       DIY MODEL ROCKET LOGGING ALTIMETER
       ==================================
       
-      This Arduino based device logs the altitude of model rocket flights (e.g. water rockets) with a barometric pressure 
-      sensor and displays the data on a computer via a Processing Sketch. The device logs data with a sample rate of 20Hz. 
+      This Arduino based device logs the altitude of model rocket flights (e.g. water rockets) with 
+      a barometric pressure sensor and displays the data on a computer via a Processing Sketch. 
+      The device logs data with a sample rate of 20Hz. 
       The Processing Sketch processes the data and displays the flight path as a curve. 
       The Sketch also calculates and displays maximum speed and maximum altitude of the flight path.
       
