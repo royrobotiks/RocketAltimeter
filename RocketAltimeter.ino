@@ -6,7 +6,7 @@
       Transmits 500 data points to Processing Sketch via Serial Port for analysis and visualization
 
       Hardware Setup:
-      Power: 3x 3V button Cells in parallel to Vin with switch in power line
+      Power: 3x 3V button Cells in parallel to Vbat with switch in power line
       Voltage readout: 2K-2K voltage divider between +Vbat and GND connected to A6
       Sensor: Barometer breakout board connected via I²C
       User Interface: push-button connected between pin 2 and GND
