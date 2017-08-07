@@ -28,7 +28,7 @@
       HARDWARE SETUP:
       ===============
       
-      Power:            3* 3V button Cells in parallel to Vin with switch in power line
+      Power:            3* 3V button Cells in parallel to Vbat and GND with switch in power line
       Voltage readout:  2K-2K voltage divider between +Vbat and GND connected to A6
       Sensor:           Barometric sensor breakout board connected via I²C
       User Interface:   Push-button to be connected between pin 2 and GND
